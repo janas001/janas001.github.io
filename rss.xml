@@ -1,23 +1,22 @@
-<?xml version="1.0" "?>
-<?rss version="2.0" "?>
-<channel>
+<rss version="2.0" "?>
+	<channel>
 		<title> Easy Cooking | Home </title>
-		<description>  Welcome to the "Easy Cooking" School's website. </description>
-		<link>  </link>
+		<description>  Welcome to the Easy Cooking website for our culinary school. </description>
+		<link>  https://janas001.github.io/index.html </link>
 		<item>
 			<title> Easy Cooking | Gallery </title>
-			<descrioption> Take a look at the photos of our school. </description>
-			<link>  </link>
+			<descrioption> Take a look to the gallery of our cooking school! </description>
+			<link> https://janas001.github.io/pages/gallery.html </link>
 		</item>
 		<item>
 			<title> Easy Cooking | Contact </title>
-			<descrioption> You are interested to learn? Sign up! </description>
-			<link>  </link>
+			<descrioption> Want to improve your cooking skills? Sing up for our classes! </description>
+			<link> https://janas001.github.io/pages/contact.html </link>
 		</item>
 		<item>
 			<title> Easy Cooking | About </title>
 			<descrioption> Read about the author of the website. </description>
-			<link>  </link>
+			<link>  https://janas001.github.io/pages/about.html </link>
 		</item>
-</channel>
+	</channel>
 </rss>
