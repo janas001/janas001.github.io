@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
+
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-image: url('../img/woodp.jpg');
+}
+.header {
+	width: 100%;
+	padding: 10px 0;
+	background-color: #0D0D0D;
+	margin-bottom: 2%;
+	font-family:'Fredoka One', cursive;
+}
+.menu ul {
+	list-style-type: none;
+	text-align: right;
+
+}
+.menu ul li {
+	display: inline-block;
+	width: 7%;
+	padding: 8px 0;
+	margin: 0 1%;
+}
+.menu ul li a {
+	color:#f28f85;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 400;
+	width:10%; 
+}
+.menu ul li a:hover {
+	font-size:28px;
+	transition:0.5s;
+	color:#fff;
+}
+.menu ul li.active {
+	border-color:#fff;
+	border-bottom: 3px solid #f28f85;
+	text-align:center;
+}
+.menu ul li.active a {
+	color:#fff;
+	font-size:28px;
+}
+.logo{
+	margin-left:2%;
+	margin-top:-2px;
+	float:left;
+}
+.footer {
+	width: 100%;
+	padding: 20px 0;
+	background-color: #0D0D0D;
+	font-family:'Fredoka One', cursive;
+	margin-top:20%;
+}
+.navigation ul {
+	list-style-type: none;
+	text-align: right;
+	margin-right:4%;
+}
+.navigation ul li {
+	display: inline-block;
+	width: 2%;
+	padding: 5px 0;
+	margin: 0 1%;
+}
+.navigation ul li a {
+	color:#f28f85;
+	text-decoration: none;
+	width:10%; 
+}
+.navigation ul li a:hover{
+	color:#fff;
+}
+.fa{
+	color:#f28f85;
+}
+.rights{
+	margin:-1.5% 2% 0% 0%;
+	color:#f28f85;
+}
+.gallery{
+	margin:10% auto;    
+	width:80%;
+	height: 50%;
+	background-color:rgba(0,0,0,0.7);
+	padding:150px 0px; 
+	box-shadow:5px 10px;
+	border-radius:5px;
+	animation-duration: 2s;
+	animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left:90%;
+  }
+  to {
+    margin-left:10%;
+  }
+}
+.text{
+	color:white;
+	font-family: 'Kanit', sans-serif;
+	margin-top:-7%;
+	margin-bottom:5%;
+	text-shadow:1px 2px #f28f85;
+}
+#text1{
+	margin-left: 39%;
+}
+     /* HOME PAGE */
+.blok{
+	margin:5% auto;
+	width:60%;
+	background-color:rgba(0,0,0,0.7);
+	padding:150px 0px; 
+	box-shadow:5px 10px;
+	border-radius:5px;
+}
+.slika{
+	height:200px;
+	background-size: cover;
+	background-position: center;
+}
+#image1{
+	background-image: url('../img/cupcakes.jpg');
+	width:20%;
+	float: right;
+	margin:6% 24% 0 0;
+}
+#image2{
+	background-image: url('../img/pizza1.jpg');
+	width:30%;
+	float: left;
+	margin:26% -10% 0 -27%;
+} 
+#image3{
+	background-image: url('../img/salad2.jpg');
+	width:30%;
+	float: right;
+	margin:-18% 7% 0 4%;
+} 
+.tekst{
+	 color:#fff;
+	 font-family: 'Kanit', sans-serif;
+	 font-size:15px;
+}
+#tekst1{
+	float: left;
+	margin:6% 0 0 25%;
+}
+a{
+	 color:#f28f85;
+	 text-decoration:none;
+	 background-color: transparent;
+}
+.anim {
+  text-align: left;
+  font-size: 30px;
+  color: #f28f85;
+  font-weight: 700;
+  margin-bottom:-5%;
+  text-transform: uppercase;
+  animation: blur 2s ease-out infinite;
+  text-shadow: 0px 0px 2px #fff, 0px 0px 2px #fff;
+}
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 3px #fff,
+      0px 0px 4px #fff, 
+      0px 0px 5px #fff,
+      0px 2px 6px #7B96B8,
+      0px -2px 8px #7B96B8,
+      0px -3px 8px #7B96B8;
+  }
+}
+#tekst2{
+	 float: right;
+	 margin: 26% -33% 0 0;
+}
+#tekst3{
+	 float: left;
+	 margin:26% 30% 0 10%;
+}
+     /* GALLERY PAGE */
+#galerija{
+		display:flex;
+		flex-wrap:wrap;
+}
+.slika1{
+	width:25%;
+	height:55%;
+	background-size: cover;
+	background-position: center;
+}
+#image4{
+	background-image: url('../img/blackwhite.jpg');
+	margin-left:-55%;
+	margin-top:-2%;
+} 
+#image5{
+	background-image: url('../img/decor.jpg');
+	margin-left:6%;
+	margin-top:-2%;
+}
+#image6{
+	background-image: url('../img/kitchen1.jpg');
+	margin-left:6%;
+	margin-top:-2%;
+}
+#image7{
+	background-image: url('../img/sushi.jpg');
+	margin-left:7%;
+	margin-top:4%;
+}
+#image8{
+	background-image: url('../img/decoration.jpg');
+	margin-left:6%;
+	margin-top:4%;
+}
+#image9{
+	background-image: url('../img/pan.jpg');
+	margin-left:6%;
+	margin-top:4%;
+}
+.slika1:hover{
+	width:28%;
+	height:60%;
+	transition:1s;
+}
+     /* CONTACT PAGE */
+.blok1{
+	width:100%;
+	height:20%;
+	background-color:rgba(0,0,0,0.7);
+	padding:50px 0px;
+	box-shadow:5px 10px;
+	margin-top:21%;
+	border-radius:5px;
+}
+.info ul {
+	list-style-type: none;
+	margin-left:25%;
+	margin-bottom:2%;
+	color:#f28f85;	
+}
+.info ul li {
+	display: inline-block;
+	width: 2%;
+	padding: 5px 0;
+	margin-right:30%;
+}
+.info ul li a {
+	color:#f28f85;
+	text-decoration: none;
+	width:5%; 
+}
+.icons{
+	font-size:20px;
+	font-family:'Fredoka One', cursive;
+	color:#f28f85;
+}
+#number{
+	margin-left:21%;
+}
+#location{
+	margin-left:41%;
+	margin-top:-2%;
+}
+#hours{
+	margin-left:71%;
+	margin-top:-2%;
+}
+label {
+	font-size: 20px;
+	color:white;
+	font-family: 'Kanit', sans-serif;
+	margin-left:17%;
+}
+input[type="email"], input[type="text"], input[type="password"]{
+	padding: 10px;
+	width: 30%;
+	margin-left:17%;
+	margin-bottom:3%;
+	border-radius:5px;
+}
+input[type="email"]:focus, input[type=text]:focus {
+  width: 40%;
+  transition: width 0.4s ease-in-out;
+}
+select{
+	padding: 5px;
+	width:16%;
+	font-size: 15px;
+	margin-left: 62%;
+	margin-top:-5.25%;
+	font-family: 'Kanit', sans-serif;
+	border-radius:5px;
+}
+input [type="radio"]{
+	margin-left:17%;
+	font-family: 'Kanit', sans-serif;
+}
+input[type="submit"], input[type="reset"]{
+	font-size: 15px;
+	color:#000;
+	font-family: 'Kanit', sans-serif;
+	padding: 5px;
+	width: 16%;
+	margin-left:62%;
+	margin-top:-5.5%;
+	border-radius:5px;
+}
+input[type="submit"]:hover , input[type="reset"]:hover{
+	background-color:#f28f85;
+    transition: background-color 0.5s linear;
+}
+     /* ABOUT PAGE */
+#text2{
+	margin-top:-7%;
+	margin-left: 44%;
+	margin-bottom:5%;
+}
+.textabout{
+	color:white;
+	font-family: 'Kanit', sans-serif;
+	font-size:18px;
+	margin-left:10%;
+	margin-top:-28%;
+	width:50%;
+}
+.slika10{
+	width:20%;
+	height:90%;
+	margin-left:70%;
+	margin-top: 7%;
+	background-size: cover;
+	background-position: center;
+	border-radius:5px;
+}
+#image10{
+	background-image: url('../img/me.jpg');
+}
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-track {
+	background: #fff;
+}
+::-webkit-scrollbar-thumb {
+	background: #f28f85;
+	border-radius:5px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background:#0D0D0D;
+	border-radius:5px;
+}
+.cleaner{
+	clear: both;
+}

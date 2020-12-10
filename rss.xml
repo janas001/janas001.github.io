@@ -1,0 +1,23 @@
+<?xml version="1.0" "?>
+<?rss version="2.0" "?>
+<channel>
+		<title> Easy Cooking | Home </title>
+		<description>  Welcome to the "Easy Cooking" School's website. </description>
+		<link>  </link>
+		<item>
+			<title> Easy Cooking | Gallery </title>
+			<descrioption> Take a look at the photos of our school. </description>
+			<link>  </link>
+		</item>
+		<item>
+			<title> Easy Cooking | Contact </title>
+			<descrioption> You are interested to learn? Sign up! </description>
+			<link>  </link>
+		</item>
+		<item>
+			<title> Easy Cooking | About </title>
+			<descrioption> Read about the author of the website. </description>
+			<link>  </link>
+		</item>
+</channel>
+</rss>
