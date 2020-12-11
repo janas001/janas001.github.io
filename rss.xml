@@ -6,17 +6,17 @@
 		<link>  https://janas001.github.io/index.html </link>
 		<item>
 			<title> Easy Cooking | Gallery </title>
-			<descrioption> Take a look to the gallery of our cooking school! </description>
+			<description> Take a look to the gallery of our cooking school! </description>
 			<link> https://janas001.github.io/pages/gallery.html </link>
 		</item>
 		<item>
 			<title> Easy Cooking | Contact </title>
-			<descrioption> Want to improve your cooking skills? Sing up for our classes! </description>
+			<description> Want to improve your cooking skills? Sing up for our classes! </description>
 			<link> https://janas001.github.io/pages/contact.html </link>
 		</item>
 		<item>
 			<title> Easy Cooking | About </title>
-			<descrioption> Read about the author of the website. </description>
+			<description> Read about the author of the website. </description>
 			<link>  https://janas001.github.io/pages/about.html </link>
 		</item>
 	</channel>
