@@ -1,3 +1,0 @@
-User-agent:*
-Disallow:/admin/
-Sitemap:https://janas001.github.io/sitemap.xml
